@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proxima.Wubble.activities.SignUpActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/SignupIconImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp" />
+
+
+    <EditText
+        android:id="@+id/signUpEditUsername"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_below="@id/SignupIconImage"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/signUpEditPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:layout_below="@id/signUpEditUsername"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/signUpEditMail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/signUpEditPassword"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/signUpEditMail"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshapesignuppagesignup"
+        android:textStyle="bold"
+        android:textColor="@color/md_grey_700" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login here!"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/signUpButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:id="@+id/signUpPageTextView" />
+
+    <Button
+        android:id="@+id/signUpPageLoginButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:textColor="@color/md_grey_700"
+        android:textStyle="bold"
+        android:layout_below="@id/signUpPageTextView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshapesignuppageslogin" />
+
+
+</RelativeLayout>

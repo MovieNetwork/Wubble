@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wubble="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    wubble:cardBackgroundColor="@color/CardViewBackgroundColor"
+    wubble:cardCornerRadius="0dp"
+    wubble:cardPreventCornerOverlap="false"
+    wubble:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_click">
+
+        <com.proxima.Wubble.misc.CustomImageView
+            android:id="@+id/movieRowImageView"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_action_user" />
+
+
+        <TextView
+            android:id="@+id/movieRowNameView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/movieRowImageView"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="Movie"
+            android:textColor="@color/md_black_1000"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+
+        <TextView
+            android:id="@+id/movieRowDateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movieRowNameView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/movieRowImageView"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scrollHorizontally="true"
+            android:text="Small Text"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

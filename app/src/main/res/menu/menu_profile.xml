@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wubble="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.proxima.Wubble.activities.ProfileActivity">
+
+    <item
+        android:id="@+id/newWubble"
+        android:title="Wubble"
+        wubble:showAsAction="always"
+        android:icon="@drawable/ic_action_cloud"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/peopleSearch"
+        android:title="People"
+        android:icon="@drawable/ic_action_add_person"
+        wubble:showAsAction="ifRoom"
+        android:orderInCategory="2" />
+
+    <item
+        android:id="@+id/uploadPicture"
+        android:title="Upload Picture"
+        android:orderInCategory="3"
+        wubble:showAsAction="never" />
+
+    <item
+        android:id="@+id/logOut"
+        android:title="Logout"
+        wubble:showAsAction="never"
+        android:orderInCategory="4" />
+
+
+</menu>

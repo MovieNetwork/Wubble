@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wubble="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.proxima.Wubble.activities.WubbleActivity">
+
+    <item
+        android:id="@+id/newWubble"
+        android:title="Wubble"
+        wubble:showAsAction="always"
+        android:icon="@drawable/ic_action_cloud"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/peopleSearch"
+        android:title="People"
+        android:icon="@drawable/ic_action_add_person"
+        wubble:showAsAction="ifRoom"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/profileAct"
+        android:title="Profile"
+        android:icon="@drawable/ic_action_person"
+        wubble:showAsAction="never"
+        android:orderInCategory="3" />
+</menu>

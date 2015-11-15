@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proxima.Wubble.activities.PeopleSearchActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Search a user..."
+        android:singleLine="true"
+        android:layout_below="@id/app_bar" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="Search"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/app_bar"
+        android:background="@drawable/upload_button_ripple" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/peopleSearchRecyclerView"
+        android:layout_marginBottom="5dp"
+        android:visibility="visible"
+        android:layout_below="@id/searchBox" />
+
+</RelativeLayout>

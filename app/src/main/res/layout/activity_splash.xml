@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proxima.Wubble.activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/SplashIconImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp" />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/splashSpinner"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scrollbarSize="80dp"
+        android:layout_below="@id/SplashIconImage"
+        android:layout_centerHorizontal="true"
+        wheel:matProg_barColor="@color/PrimaryBackgorundColor"
+        wheel:matProg_progressIndeterminate="true"
+        android:animateLayoutChanges="true" />
+
+</RelativeLayout>

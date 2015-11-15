@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proxima.Wubble">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.proxima.Wubble.AppGlobal"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Wubble">
+        <activity
+            android:name="com.proxima.Wubble.activities.SplashActivity"
+            android:label="WUBBLE"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.SignUpActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.proxima.Wubble.activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/SplashTheme"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.NewWubbleActivity"
+            android:label="Wubble it!"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateAlwaysVisible"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.FeedActivity"
+            android:label="Timeline"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.ToolbarActivity"
+            android:label="Toolbar"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.ImageUploadActivity"
+            android:label="Upload Picture"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.ProfileActivity"
+            android:label="My Profile"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.OtherProfileActivity"
+            android:label="Profile"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.PeopleSearchActivity"
+            android:label="Search Wubbler"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.WubbleActivity"
+            android:label="Wubble"></activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+        <provider
+            android:name="com.proxima.Wubble.misc.MyFileContentProvider"
+            android:authorities="com.proxima.Wubble"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.proxima.Wubble.activities.FollowActivity"
+            android:label="Follow Action"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.MovieActivity"
+            android:label="Movies"></activity>
+        <activity
+            android:name="com.proxima.Wubble.activities.MovieSearchActivity"
+            android:launchMode="singleTop"
+            android:label="Search Movie"></activity>
+    </application>
+
+</manifest>

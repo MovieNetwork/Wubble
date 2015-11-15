@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="Theme.Base" parent="AppTheme">
+        <item name="colorPrimary">@color/PrimaryBackgorundColor</item>
+        <item name="colorPrimaryDark">@color/SecondaryBackgorundColor</item>
+        <item name="colorAccent">@color/ColorBackgroundAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/BackgroundColor</item>
+    </style>
+
+    <style name="Theme.Wubble" parent="Theme.Base" />
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/PrimaryTextColor</item>
+        <item name="android:actionMenuTextColor">@color/PrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/md_white_1000</item>
+        <item name="android:background">@color/PrimaryBackgorundColor</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/PrimaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SplashTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

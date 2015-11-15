@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proxima.Wubble.activities.ImageUploadActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/chosenimage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/app_bar" />
+
+
+        <Button
+            android:id="@+id/imagefromGallery"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/upload_button_ripple"
+            android:textColor="#FFFFFF"
+            android:text="Choose one from gallery"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/app_bar" />
+
+        <Button
+            android:id="@+id/imagefromCamera"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/upload_button_ripple"
+            android:textColor="#FFFFFF"
+            android:text="Take a new picture"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/app_bar" />
+
+        <Button
+            android:id="@+id/uploadpicture"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/upload_button_ripple"
+            android:textColor="#FFFFFF"
+            android:text="Upload it!"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/app_bar" />
+    </LinearLayout>
+</LinearLayout>

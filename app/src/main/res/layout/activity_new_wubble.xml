@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wubble="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proxima.Wubble.activities.NewWubbleActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        wubble:cardBackgroundColor="@color/CardViewBackgroundColor"
+        wubble:cardCornerRadius="0dp"
+        wubble:cardPreventCornerOverlap="false"
+        android:layout_marginTop="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SearchView
+                android:id="@+id/movieSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:queryHint="Write a movie..." />
+
+
+            <EditText
+                android:id="@+id/wubblePageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="4"
+                android:maxLines="6"
+                android:hint="Write a Wubble..."
+                android:gravity="top"
+                android:layout_below="@id/movieSearchView" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/movieRecyclerView"
+                android:layout_below="@id/movieSearchView"
+                android:background="@color/BackgroundColor"
+                android:visibility="gone" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/upload_button_ripple"
+                android:id="@+id/wubblePageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFF"
+                android:text="Wubble it!"
+                android:layout_below="@id/wubblePageEditText" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wubble="http://schemas.android.com/apk/res-auto"
+    tools:context="com.proxima.Wubble.activities.MovieActivity">
+
+    <item
+        android:id="@+id/newWubble"
+        android:title="Wubble"
+        wubble:showAsAction="always"
+        android:icon="@drawable/ic_action_cloud"
+        android:orderInCategory="1" />
+    <item
+        android:id="@+id/peopleSearch"
+        android:title="People"
+        android:icon="@drawable/ic_action_add_person"
+        wubble:showAsAction="always"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/profileAct"
+        android:title="Profile"
+        android:icon="@drawable/ic_action_person"
+        wubble:showAsAction="never"
+        android:orderInCategory="3" />
+</menu>

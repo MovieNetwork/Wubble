@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="PrimaryBackgorundColor">@color/md_cyan_500</color>
+    <color name="SecondaryBackgorundColor">@color/md_cyan_700</color>
+    <color name="ColorBackgroundAccent">@color/md_cyan_300</color>
+    <color name="BackgroundColor">#e0e0e0</color>
+    <color name="PrimaryTextColor">@color/md_white_1000</color>
+    <color name="SecondaryTextColor">@color/md_yellow_500</color>
+    <color name="CardViewBackgroundColor">#FFF4F3FC</color>
+    <color name="FollowButtonNotFollowedColor">@color/md_grey_700</color>
+    <color name="FollowButtonFollowedColor">@color/md_grey_500</color>
+    <color name="RippleColor">@color/md_grey_300</color>
+    <color name="RippleColorButton">@color/md_grey_500</color>
+    <color name="PopupTransparentBackground">#b4ffffff</color>
+    <color name="PopupBackground">#f5f4f3fa</color>
+
+</resources>

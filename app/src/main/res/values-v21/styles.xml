@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Wubble" parent="Theme.Base">
+        <item name="colorControlHighlight">@color/md_grey_500</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

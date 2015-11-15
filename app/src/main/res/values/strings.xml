@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wubble</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_new_wubble">NewWubbleActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_image_upload">ImageUploadActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_custom_circle_picture">CustomCirclePicture</string>
+    <string name="title_activity_other_profile">OtherProfileActivity</string>
+    <string name="title_follow_activity">FollowActivity</string>
+    <string name="title_activity_people_search">PeopleSearchActivity</string>
+    <string name="title_activity_wubble">WubbleActivity</string>
+    <string name="title_activity_my_file_content_provider">MyFileContentProvider</string>
+    <string name="title_activity_follow_recycler">FollowActivity</string>
+    <string name="title_activity_movie">MovieActivity</string>
+    <string name="no_result">No result found</string>
+    <string-array name="MoviePageTabs">
+        <item> Followings Comments</item>
+        <item> Top Comments</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_movie_search">MovieSearchActivity</string>
+
+</resources>

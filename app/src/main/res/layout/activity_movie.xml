@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.proxima.Wubble.activities.MovieActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/MoviePageRelLay">
+
+        <TextView
+            android:id="@+id/MoviePageMovieName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Movie Name"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.proxima.Wubble.misc.CustomImageView
+            android:id="@+id/MoviePageMovieImage"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/MoviePageMovieName"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_user" />
+
+
+        <TextView
+            android:id="@+id/MoviePageMovieDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MoviePageMovieName"
+            android:layout_toRightOf="@id/MoviePageMovieImage"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minLines="2"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:text="Description"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:background="@drawable/follow_action_button_ripple" />
+
+        <ImageView
+            android:id="@+id/primerdivisor4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/MoviePageMovieDescription"
+            android:layout_toRightOf="@id/MoviePageMovieImage"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/md_grey_400"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="5px"
+            android:paddingTop="10px" />
+
+        <TextView
+            android:id="@+id/MoviePageMovieGenres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primerdivisor4"
+            android:layout_toRightOf="@id/MoviePageMovieImage"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="Genres"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/primerdivisor6"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/MoviePageMovieGenres"
+            android:layout_toRightOf="@id/MoviePageMovieImage"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/md_grey_400"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingBottom="5px"
+            android:paddingTop="10px" />
+
+        <TextView
+            android:id="@+id/MoviePageReleaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primerdivisor6"
+            android:layout_toRightOf="@id/MoviePageMovieImage"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:minLines="2"
+            android:text="Release Date"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/MoviePageLinearLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MoviePageMovieImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/MoviePageIMDBImage"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_imdb" />
+
+            <TextView
+                android:id="@+id/MoviePageIMDBScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="    "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/primerdivisor5"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@color/md_grey_400"
+                android:paddingBottom="5px"
+                android:paddingTop="10px" />
+
+            <com.proxima.Wubble.misc.CustomImageView
+                android:id="@+id/MoviePageRottenTomatoesImage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rottentomatoes" />
+
+            <TextView
+                android:id="@+id/MoviePageRottenTomatoesScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="    "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/primerdivisor9"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@color/md_grey_400"
+                android:paddingBottom="5px"
+                android:paddingTop="10px" />
+
+            <com.proxima.Wubble.misc.CustomImageView
+                android:id="@+id/MoviePageMetacriticImage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_metacritic" />
+
+            <TextView
+                android:id="@+id/MoviePageMetascore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="    "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/MoviePageLinearLay">
+
+            <com.proxima.Wubble.Tabs.SlidingTabLayout
+                android:id="@+id/MoviePageTabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/MoviePagePager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
