@@ -2,7 +2,9 @@
 
 Wubble is a movie themed social network built for Android
 
-We([Barış](https://github.com/Epokhe) and [Emre](https://github.com/EmreYigitAlparslan)) have built this app previous year, but we don't intend to develop it any further, so we wanted to provide it as a social network template to the open source community.
+We have built this app previous year, but we don't intend to develop it any further, 
+so we wanted to provide it as a social network template to the open source community.
+Code quality is far from pretty, so feel free to contribute.
 
 ##How it works
 
@@ -28,3 +30,7 @@ apis are used for getting various movie information.
 Example api keys are provided in [Constants](https://github.com/MovieNetwork/Wubble/blob/master/app/src/main/java/com/proxima/Wubble/Constants.java#L89) file, 
 if you want to create your own app, you should change them.
 
+##Authors
+* Barış Özkuşlar - [@Epokhe](https://github.com/Epokhe) 
+* Emre Yiğit Alparslan - [@EmreYigitAlparslan](https://github.com/EmreYigitAlparslan)
+* Mustafa Nacar - [@mstfnacar](https://github.com/mstfnacar)

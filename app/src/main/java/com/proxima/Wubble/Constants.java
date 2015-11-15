@@ -86,8 +86,8 @@ public final class Constants {
 
     }
 
-    public static final String PARSE_APP_ID = "U8jH895eMWHCSfr0GEc7kU5YA69mqwOguk0GCWIw";
-    public static final String PARSE_CLIENT_KEY = "LhQjNQOA4VdhhaJtejAWMAvLEWTUEeK3ggtGZ5fk";
+    public static final String PARSE_APP_ID = "5Sqm8A6YXQ1heLwSU1dOvXTe6Gf026OoyowLbWNP";
+    public static final String PARSE_CLIENT_KEY = "wRJsDUtcHiwgJjB3JzE3v0ViVabFnD5U7DaVMec2";
 
     public static final String TMDB_API_KEY = "dc7176817ac527fc0d4f384f311f1cb7";
 
