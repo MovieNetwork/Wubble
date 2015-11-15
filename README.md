@@ -6,8 +6,8 @@ We have built this app previous year, but we don't intend to develop it any furt
 
 ##How it works
 
-<img src="https://github.com/MovieNetwork/Wubble/blob/master/gifs/Feed.gif" width="400">
-<img src="https://github.com/MovieNetwork/Wubble/blob/master/gifs/Movie.gif" width="400">
+<img src="https://github.com/MovieNetwork/Wubble/blob/master/gifs/Feed.gif" width="350">
+<img src="https://github.com/MovieNetwork/Wubble/blob/master/gifs/Movie.gif" width="350">
 
 
 Wubble has a twitter-like user interface, where you can follow other users, send Wubbles, and read their Wubbles. 
