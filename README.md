@@ -2,7 +2,7 @@
 
 Wubble is a movie themed social network built for Android
 
-We have built this app previous year, but we don't intend to develop it any further, so we wanted to provide it as a social network template to the open source community.
+We([Barış](https://github.com/Epokhe) and [Emre](https://github.com/EmreYigitAlparslan)) have built this app previous year, but we don't intend to develop it any further, so we wanted to provide it as a social network template to the open source community.
 
 ##How it works
 
