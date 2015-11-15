@@ -1,4 +1,4 @@
-# Wubble
+# Wubble [![Build Status](https://travis-ci.org/MovieNetwork/Wubble.svg?branch=master)](https://travis-ci.org/MovieNetwork/Wubble)
 
 Wubble is a movie themed social network built for Android
 
