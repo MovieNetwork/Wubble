@@ -1,0 +1,15 @@
+language: android
+android:
+   components:
+   - platform-tools
+   - tools
+
+jdk: oraclejdk8
+
+notifications:
+  email: true
+
+sudo: false
+
+script:
+  - ./gradlew clean build
