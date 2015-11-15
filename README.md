@@ -6,8 +6,9 @@ We have built this app previous year, but we don't intend to develop it any furt
 
 ##How it works
 
-![Movie](https://github.com/MovieNetwork/Wubble/blob/master/gifs/Movie.gif)
 ![Feed](https://github.com/MovieNetwork/Wubble/blob/master/gifs/Feed.gif)
+![Movie](https://github.com/MovieNetwork/Wubble/blob/master/gifs/Movie.gif)
+
 
 Wubble has a twitter-like user interface, where you can follow other users, send Wubbles, and read their Wubbles. 
 You can share your thoughts about a movie ie. wubble.
