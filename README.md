@@ -24,7 +24,7 @@ You can start a discussion about a movie by commenting one of your friends wubbl
 
 ##Installation
 
-Just clone the repository and open the project in Android Studio.
+Just clone the repository and open the project in Android Studio. It uses Android Build Tools 21.1.1.
 
 ###Api Keys
 
