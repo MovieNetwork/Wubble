@@ -1,6 +1,11 @@
-# Wubble [![Build Status](https://travis-ci.org/MovieNetwork/Wubble.svg?branch=master)](https://travis-ci.org/MovieNetwork/Wubble)
+# Wubble  [![Build Status](https://travis-ci.org/MovieNetwork/Wubble.svg?branch=master)](https://travis-ci.org/MovieNetwork/Wubble)
 
 Wubble is a movie themed social network built for Android
+
+<a href="https://play.google.com/store/apps/details?id=com.proxima.wubble_deneme">
+<img alt="Get it on Google Play"
+       src="https://cloud.githubusercontent.com/assets/12447257/8147861/0b474efe-1280-11e5-9f09-d6fb1ebaf954.png" />
+</a>
 
 We have built this app previous year, but we don't intend to develop it any further, 
 so we wanted to provide it as a social network template to the open source community.
